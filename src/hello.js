@@ -1,3 +1,5 @@
-function hello(name) {
-    return 'Hello, ' + name + '!'
+const _ = require('lodash')
+
+module.exports = function (name) {
+    return 'Hello, ' + _.capitalize(name) + '!'
 }

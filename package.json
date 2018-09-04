@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "demo": "node hello.js",
     "test": "karma start karma.conf.js"
   },
   "dependencies": {
